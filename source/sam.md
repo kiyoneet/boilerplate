@@ -1,5 +1,6 @@
 ---
 title: SAM使ってRESTFulAPIを作る
+tags: ["AWS", "Serverless", "SAM"]
 date: 2019-06-20
 ---
 
@@ -134,6 +135,11 @@ localhost:3000/helloにGETすれば、必要なDockerImageをpullしてコンテ
 
 実行が終わるとコンテナは削除される。実際のLambdaと同じ動作
 
+### 実装
+
+これでHelloWorld終わりなのでhello-worldは削除しちゃってsrcとか作っちゃってinitする
+
+とりあえずざっくり作る
 
 
 
